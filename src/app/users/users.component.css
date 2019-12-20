@@ -1,0 +1,11 @@
+tr:first-of-type:hover {
+  background-color: white;
+  color: black;
+  cursor: default;
+}
+
+tr:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}

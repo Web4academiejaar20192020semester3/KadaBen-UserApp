@@ -1,0 +1,21 @@
+<div>
+  <table>
+    <tr>
+      <th>UserID</th>
+      <th>Voornaam</th>
+      <th>Familienaam</th>
+      <th>Status</th>
+      <th>Geslacht</th>
+      <th>Leeftijd</th>
+    </tr>
+    <tr *ngFor="let user of users" (click)="onSelect(user)">
+      <td>{{user.userId}}</td>
+      <td>{{user.firstName}}</td>
+      <td>{{user.lastName}}</td>
+      <td>{{user.status}}</td>
+      <td>{{user.gender}}</td>
+      <td>{{user.age}}</td>
+    </tr>
+  </table>
+</div>
+
